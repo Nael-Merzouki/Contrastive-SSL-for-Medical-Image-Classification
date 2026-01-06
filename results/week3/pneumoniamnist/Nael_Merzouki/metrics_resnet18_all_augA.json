@@ -1,0 +1,5 @@
+{
+"acc (train/test)": [0.9828, 0.8862],
+"auroc (train/test)": [0.9984, 0.9761],
+"ece (train/test)": [0.0071, 0.1032]
+}

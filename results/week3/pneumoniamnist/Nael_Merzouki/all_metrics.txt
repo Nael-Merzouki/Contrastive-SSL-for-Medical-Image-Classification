@@ -1,0 +1,33 @@
+Note: Metrics are averaged per epoch. Above scores were recorded at the 8th epoch for train & val sets.
+
+Setup: resnet18, AdamW, 8 epochs:
+ resnet18-head:
+    (train/val/test) loss = 0.2857, 0.3040, 0.5462
+    (train/val/test) accuracy = 0.8876, 0.8702, 0.7628
+    (train/val/test) auroc = 0.9329, 0.9249, 0.8371
+    (train/val/test) ece = 0.0402, 0.0444, 0.1285
+ resnet18-all:
+    (train/val/test) loss = 0.0004, 0.0573, 0.7705
+    (train/val/test) accuracy = 1.0000, 0.9828, 0.8670 
+    (train/val/test) auroc = 1.0000, 0.9982, 0.9546
+    (train/val/test) ece = 0.0004, 0.0158, 0.1306
+ resnet18-all + augA (Flip, Rotation):
+    (train/val/test) loss = 0.0363, 0.0598, 0.5455
+    (train/val/test) accuracy = 0.9862, 0.9771, 0.8654
+    (train/val/test) auroc = 0.9990, 0.9972, 0.9659
+    (train/val/test) ece = 0.0052, 0.0167, 0.1350
+resnet18-all + augB (Flip, Rotation, Jitter):
+    (train/val/test) loss = 0.0452, 0.0454, 0.3533
+    (train/val/test) accuracy = 0.9828, 0.9866, 0.8862
+    (train/val/test) auroc = 0.9984, 0.9986, 0.9761
+    (train/val/test) ece = 0.0071, 0.0151, 0.1032
+ resnet18-all + augC (Flip, Rotation, Normalize):
+    (train/val/test) loss = 0.0383, 0.0568, 0.4318 
+    (train/val/test) accuracy = 0.9862, 0.9809, 0.8750
+    (train/val/test) auroc = 0.9988, 0.9973, 0.9755
+    (train/val/test) ece = 0.0044, 0.0134, 0.1249
+resnet18-all + augD (Flip, Rotation, Jitter, Normalize):
+    (train/val/test) loss = 0.0467, 0.0497, 0.3532 
+    (train/val/test) accuracy = 0.9836, 0.9828, 0.8974 
+    (train/val/test) auroc = 0.9981, 0.9979, 0.9783
+    (train/val/test) ece = 0.0047, 0.0108, 0.1102

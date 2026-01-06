@@ -1,0 +1,27 @@
+resnet18--head, Adam optimizer:
+Num epochs:
+    5 - acc = 0.7628 ; auroc = 0.8252 ; ece = 0.2388967949992571
+    6 - acc = 0.7740 ; auroc = 0.8343 ; ece = 0.24554364254268318
+    7 - acc = 0.7692 ; auroc = 0.8376 ; ece = 0.2502382514663996
+    8 - acc = 0.7628 ; auroc = 0.8371 ; ece = 0.2545533871803528
+
+resnet18--head, SGD optimizer with momentum (=0.9):
+Num epochs:
+    5 - acc = 0.7548 ; auroc = 0.8157 ; ece = 0.23661998000282505
+    6 - acc = 0.7692 ; auroc = 0.8253 ; ece = 0.2421585554495836
+    7 - acc = 0.7644 ; auroc = 0.8289 ; ece = 0.24518117657265603
+    8 - acc = 0.7772 ; auroc = 0.8290 ; ece = 0.249663309695629
+
+smallcnn, Adam optimizer:
+Num epochs:
+    5 - acc = 0.6218 ; auroc = 0.6494 ; ece = 0.11271842540456699
+    6 - acc = 0.6154 ; auroc = 0.6841 ; ece = 0.10822609940973611
+    7 - acc = 0.6154 ; auroc = 0.7040 ; ece = 0.1058222264624559
+    8 - acc = 0.6202 ; auroc = 0.7237 ; ece = 0.12277471517714171
+
+smallcnn, SGD optimizer with momentum (=0.9):
+Num epochs:
+    5 - acc = 0.6250 ; auroc = 0.4768 ; ece = 0.05299335718154907
+    6 - acc = 0.6250 ; auroc = 0.4833 ; ece = 0.04360496997833252
+    7 - acc = 0.6250 ; auroc = 0.4891 ; ece = 0.034486353397369385
+    8 - acc = 0.6250 ; auroc = 0.4930 ; ece = 0.025687690442189194
