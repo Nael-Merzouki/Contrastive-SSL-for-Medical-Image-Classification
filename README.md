@@ -1,4 +1,4 @@
-# Personal Contributions — MedMNIST SSL (Nael_Merzouki)
+# Personal Contributions — MedMNIST SSL
 
 This repository contains my personal contributions (scripts, results, and reports) to the MedMNIST-SSL project proposed during a McGill AI Lab meeting. It documents the work I conducted up to Week 4 of this 8-week project, focusing on benchmarking architectures, improving evaluation metrics, and analyzing model performance for the medical imaging classification task.
 
